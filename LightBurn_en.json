@@ -1,0 +1,52 @@
+{
+	"Language": "en",
+	"Created": "2026-08-26",
+	"Revision": 1,
+	"Compatability": [
+		{ "Application": "LIGHTBURN", "Min": "0.0", "Max": "999.0" }
+	],
+	"Data": [
+		{
+			"Tag": "LineTool",
+			"Title": "Draw Lines",
+			"Content": "Draw connected straight and curved line segments. Click to place points; the tool keeps drawing until you close the shape or press <b>Esc</b>.",
+			"Documentation": "https://docs.lightburnsoftware.com/latest/Reference/DrawLines/",
+			"Actions": [
+				{ "Content": "Place a point", "Inputs": "Mouse1" },
+				{ "Content": "Constrain angle", "Inputs": "Shift, Mouse1" }
+			]
+		},
+		{
+			"Tag": "EditNodes",
+			"Title": "Edit Nodes",
+			"Content": "Reshape existing vectors by dragging their points, adding or deleting nodes, and converting segments between straight and curved.",
+			"Documentation": "https://docs.lightburnsoftware.com/latest/Reference/EditNodes/"
+		},
+		{
+			"Tag": "ClickMoveTool",
+			"Title": "Position Laser",
+			"Content": "Click anywhere on the workspace to move the laser head to that point — useful for lining up material before framing or running a job.",
+			"Documentation": "https://docs.lightburnsoftware.com/latest/Reference/PositionLaserTool/"
+		},
+		{
+			"Tag": "RectTool",
+			"Title": "Rectangle",
+			"Content": "Draw rectangles and rounded rectangles. Drag out the size you want on the workspace.",
+			"Documentation": "https://docs.lightburnsoftware.com/latest/Reference/RectTool/",
+			"Actions": [
+				{ "Content": "Draw", "Inputs": "Mouse1" },
+				{ "Content": "Constrain to a square", "Inputs": "Shift, Mouse1" }
+			]
+		},
+		{
+			"Tag": "EllipseTool",
+			"Title": "Ellipse",
+			"Content": "Draw ellipses and circles. Drag out the size you want on the workspace.",
+			"Documentation": "https://docs.lightburnsoftware.com/latest/Reference/EllipseTool/",
+			"Actions": [
+				{ "Content": "Draw", "Inputs": "Mouse1" },
+				{ "Content": "Constrain to a circle", "Inputs": "Shift, Mouse1" }
+			]
+		}
+	]
+}
