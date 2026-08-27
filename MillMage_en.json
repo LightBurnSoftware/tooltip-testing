@@ -1,0 +1,17 @@
+{
+	"Language": "en",
+	"Created": "2026-08-26",
+	"Revision": 1,
+	"Compatability": [
+		{ "Application": "MILLMAGE", "Min": "0.0", "Max": "999.0" }
+	],
+	"Data": [
+		{
+			"Tag": "TextTool",
+			"Title": "Text",
+			"Content": "Add and edit text on the workspace, then assign it to a milling operation.",
+			"Documentation": "latest/Reference/TextTool/",
+			"IncludedIn": [ "MillMage Core", "MillMage Pro" ]
+		}
+	]
+}
