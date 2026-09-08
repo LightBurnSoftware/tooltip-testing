@@ -1,17 +1,25 @@
 {
 	"Language": "en",
-	"Created": "2026-08-26",
-	"Revision": 1,
+	"Created": "2026-09-08",
+	"Revision": 2,
 	"Compatability": [
-		{ "Application": "LIGHTBURN", "Min": "0.0", "Max": "999.0" }
+		{
+			"Application": "LIGHTBURN",
+			"Min": "0.0.0",
+			"Max": "999.0.0"
+		}
 	],
 	"Data": [
 		{
 			"Tag": "ClickMoveTool",
+			"Action": "actionPosition_Laser",
 			"Title": "Position Laser",
 			"Content": "Click anywhere on the workspace to move the laser head to that point — useful for lining up material before framing or running a job.",
 			"Documentation": "latest/Reference/PositionLaserTool/",
-			"IncludedIn": [ "LightBurn Core", "LightBurn Pro" ]
+			"IncludedIn": [
+				"LightBurn Core",
+				"LightBurn Pro"
+			]
 		}
 	]
 }

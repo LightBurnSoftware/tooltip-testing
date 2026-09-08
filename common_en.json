@@ -1,49 +1,95 @@
 {
 	"Language": "en",
-	"Created": "2026-08-26",
-	"Revision": 1,
+	"Created": "2026-09-08",
+	"Revision": 2,
 	"Compatability": [
-		{ "Application": "COMMON", "Min": "0.0", "Max": "999.0" }
+		{
+			"Application": "COMMON",
+			"Min": "0.0.0",
+			"Max": "999.0.0"
+		}
 	],
 	"Data": [
 		{
 			"Tag": "LineTool",
+			"Action": "actionDraw_Lines",
 			"Title": "Draw Lines",
 			"Content": "Draw connected straight and curved line segments. Click to place points; the tool keeps drawing until you close the shape or press <b>Esc</b>.",
 			"Documentation": "latest/Reference/DrawLines/",
-			"IncludedIn": [ "LightBurn Core", "LightBurn Pro", "MillMage Core", "MillMage Pro" ],
-			"Actions": [
-				{ "Content": "Place a point", "Inputs": "Mouse1" },
-				{ "Content": "Constrain angle", "Inputs": "Shift, Mouse1" }
+			"IncludedIn": [
+				"LightBurn Core",
+				"LightBurn Pro",
+				"MillMage Core",
+				"MillMage Pro"
+			],
+			"Behaviors": [
+				{
+					"Content": "Place a point",
+					"Inputs": "Mouse1"
+				},
+				{
+					"Content": "Constrain angle",
+					"Inputs": "Shift, Mouse1"
+				}
 			]
 		},
 		{
 			"Tag": "EditNodes",
+			"Action": "actionEditNodes",
 			"Title": "Edit Nodes",
 			"Content": "Reshape existing vectors by dragging their points, adding or deleting nodes, and converting segments between straight and curved.",
 			"Documentation": "latest/Reference/EditNodes/",
-			"IncludedIn": [ "LightBurn Core", "LightBurn Pro", "MillMage Core", "MillMage Pro" ]
+			"IncludedIn": [
+				"LightBurn Core",
+				"LightBurn Pro",
+				"MillMage Core",
+				"MillMage Pro"
+			]
 		},
 		{
 			"Tag": "RectTool",
+			"Action": "actionRectangle",
 			"Title": "Rectangle",
 			"Content": "Draw rectangles and rounded rectangles. Drag out the size you want on the workspace.",
 			"Documentation": "latest/Reference/RectTool/",
-			"IncludedIn": [ "LightBurn Core", "LightBurn Pro", "MillMage Core", "MillMage Pro" ],
-			"Actions": [
-				{ "Content": "Draw", "Inputs": "Mouse1" },
-				{ "Content": "Constrain to a square", "Inputs": "Shift, Mouse1" }
+			"IncludedIn": [
+				"LightBurn Core",
+				"LightBurn Pro",
+				"MillMage Core",
+				"MillMage Pro"
+			],
+			"Behaviors": [
+				{
+					"Content": "Draw",
+					"Inputs": "Mouse1"
+				},
+				{
+					"Content": "Constrain to a square",
+					"Inputs": "Shift, Mouse1"
+				}
 			]
 		},
 		{
 			"Tag": "EllipseTool",
+			"Action": "actionEllipse",
 			"Title": "Ellipse",
 			"Content": "Draw ellipses and circles. Drag out the size you want on the workspace.",
 			"Documentation": "latest/Reference/EllipseTool/",
-			"IncludedIn": [ "LightBurn Core", "LightBurn Pro", "MillMage Core", "MillMage Pro" ],
-			"Actions": [
-				{ "Content": "Draw", "Inputs": "Mouse1" },
-				{ "Content": "Constrain to a circle", "Inputs": "Shift, Mouse1" }
+			"IncludedIn": [
+				"LightBurn Core",
+				"LightBurn Pro",
+				"MillMage Core",
+				"MillMage Pro"
+			],
+			"Behaviors": [
+				{
+					"Content": "Draw",
+					"Inputs": "Mouse1"
+				},
+				{
+					"Content": "Constrain to a circle",
+					"Inputs": "Shift, Mouse1"
+				}
 			]
 		}
 	]
